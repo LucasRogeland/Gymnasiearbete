@@ -41,7 +41,7 @@ public class Server{
 	//Initializes the server and asks for the port
 	private static void init() throws IOException{
 		closeRequested = false;
-		db = new DatabaseConnection("jdbc:mysql://localhost:3306/game", "root", "F2g37c8dp1kk");
+		db = new DatabaseConnection("jdbc:mysql://localhost:3306/game", "root", "password");
 		int port = 0;
 		try{
 			port = Integer.parseInt(JOptionPane.showInputDialog("Server Port"));
