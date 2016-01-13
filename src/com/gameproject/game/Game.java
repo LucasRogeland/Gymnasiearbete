@@ -41,7 +41,7 @@ public class Game {
 		
 		//Initialize the main display
 		DisplayManager.init();
-		DisplayManager.create("Display", 1920, 1080, false);
+		DisplayManager.create("Display", 1920, 1080, false); //Why u no work??? Error code: 66
 		DisplayManager.setTitle("Klockan tickar");
 		DisplayManager.setVsync(false);
 		
