@@ -14,7 +14,7 @@ public class Main {
 
 	
 	public Main(){
-		String username = JOptionPane.showInputDialog("Username: ");
+		
 		new Thread(new Runnable(){
 	
 			@Override

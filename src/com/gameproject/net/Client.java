@@ -46,7 +46,7 @@ public class Client {
 			lastSentPacket = 0;
 			serverIP = InetAddress.getByName("127.0.0.1");
 			serverPort = 3343;
-			String username = JOptionPane.showInputDialog("Username: "); // Error code: 66 Corresponding to error in game line 44 
+			String username = JOptionPane.showInputDialog("Username: "); // Error code: 66 Corresponding to error in game line 44 Linux error only!! 
 		} catch (Exception e) {
 			System.exit(-1);
 			System.out.println("Failed to init client");
